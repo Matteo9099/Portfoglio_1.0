@@ -1,0 +1,92 @@
+/*	=====================================================================
+							GENERAL					
+	===================================================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-cv{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 50px 0;
+}
+.subContainer{
+    margin-bottom: 20px;
+}
+.skills-title{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-shadow: 3px 3px #ea0f1e;
+}
+
+.skills-element{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+}
+
+.skills-element img{
+    width: 140px;
+    height: 140px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subTitle{
+    color: #ea0f1e;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+.subSpan{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+.subProf{
+    color: #fff;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.subText{
+    color: #fff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 767px) {
+
+    .skills-element{
+        width: 100%;
+    }
+}
+
+/* ------ Delays ------ */
+.delay02 { -webkit-animation-delay: .2s; animation-delay: .2s;}
+.delay04 { -webkit-animation-delay: .4s; animation-delay: .4s;}
+.delay06 { -webkit-animation-delay: .6s; animation-delay: .6s;}
+.delay08 { -webkit-animation-delay: .8s; animation-delay: .8s;}
+.delay10 { -webkit-animation-delay: 1s; animation-delay: 1s;}
+.delay12 { -webkit-animation-delay: 1.2s; animation-delay: 1.2s;}
+.delay14 { -webkit-animation-delay: 1.4s; animation-delay: 1.4s;}
+.delay16 { -webkit-animation-delay: 1.6s; animation-delay: 1.6s;}
+.delay18 { -webkit-animation-delay: 1.8s; animation-delay: 1.8s;}
+.delay20 { -webkit-animation-delay: 2s; animation-delay: 2s;}
+.delay22 { -webkit-animation-delay: 2.2s; animation-delay: 2.2s;}
